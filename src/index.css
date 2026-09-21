@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+@theme {
+  /* Premium deep-tech palette */
+  --color-bg: #07111d;
+  --color-bg-2: #0d1728;
+  --color-bg-3: #121f32;
+  --color-surface: rgba(13, 24, 40, 0.68);
+  --color-surface-2: rgba(15, 30, 48, 0.8);
+  --color-border: rgba(125, 211, 252, 0.22);
+  --color-border-2: rgba(139, 92, 246, 0.28);
+  --color-primary: #67e8f9;
+  --color-primary-bright: #7dd3fc;
+  --color-accent: #8b5cf6;
+  --color-accent-2: #34d399;
+  --color-text: #dfeaf6;
+  --color-text-strong: #f8fbff;
+  --color-muted: #9fb0c5;
+  --color-glow: rgba(125, 211, 252, 0.45);
+  --color-glow-soft: rgba(139, 92, 246, 0.18);
+
+  --font-display: "Unbounded", system-ui, sans-serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --animate-blink: blink 1.05s steps(1) infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-glow: glow 3.5s ease-in-out infinite;
+  --animate-spin-slow: spin 18s linear infinite;
+  --animate-gradient: gradient 8s ease infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+}
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 22px rgba(34,211,238,0.35), 0 0 60px rgba(59,130,246,0.18); }
+  50% { box-shadow: 0 0 36px rgba(34,211,238,0.65), 0 0 90px rgba(59,130,246,0.32); }
+}
+@keyframes gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Base */
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background:
+    radial-gradient(1200px 700px at 85% -10%, rgba(125,211,252,0.16), transparent 52%),
+    radial-gradient(900px 500px at 12% 8%, rgba(139,92,246,0.13), transparent 60%),
+    radial-gradient(800px 600px at 50% 100%, rgba(52,211,153,0.08), transparent 58%),
+    linear-gradient(180deg, #07111d 0%, #0b1727 38%, #07111d 100%);
+  background-attachment: fixed;
+}
+
+::selection { background: rgba(34,211,238,0.35); color: #fff; }
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #050816; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #06b6d4, #3b82f6);
+  border-radius: 999px;
+  border: 2px solid #050816;
+}
+::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, #22d3ee, #6366f1); }
+
+/* Utilities */
+.font-display { font-family: var(--font-display); }
+.font-body { font-family: var(--font-body); }
+.font-mono { font-family: var(--font-mono); }
+
+.text-gradient {
+  background: linear-gradient(90deg, #7dd3fc 0%, #8b5cf6 50%, #34d399 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 8s ease infinite;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(34,211,238,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34,211,238,0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+}
+
+.glass {
+  background: linear-gradient(180deg, rgba(15, 24, 40, 0.72), rgba(12, 20, 34, 0.62));
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  border: 1px solid rgba(125, 211, 252, 0.15);
+  box-shadow: 0 20px 60px rgba(4, 10, 18, 0.28);
+}
+
+.glass-strong {
+  background: linear-gradient(180deg, rgba(15, 27, 40, 0.84), rgba(10, 18, 30, 0.7));
+  backdrop-filter: blur(20px) saturate(170%);
+  -webkit-backdrop-filter: blur(20px) saturate(170%);
+  border: 1px solid rgba(125, 211, 252, 0.2);
+  box-shadow: 0 30px 80px rgba(3, 9, 16, 0.38);
+}
+
+.glow-cyan { box-shadow: 0 0 24px rgba(34,211,238,0.35), 0 0 60px rgba(59,130,246,0.15); }
+.glow-cyan-strong { box-shadow: 0 0 36px rgba(34,211,238,0.6), 0 0 90px rgba(59,130,246,0.3); }
+
+.btn-primary {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.7rem;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #06131b;
+  background: linear-gradient(135deg, #7dd3fc 0%, #8b5cf6 52%, #34d399 100%);
+  background-size: 200% 200%;
+  animation: gradient 6s ease infinite;
+  box-shadow: 0 16px 40px rgba(125, 211, 252, 0.28), 0 0 28px rgba(139, 92, 246, 0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 48px rgba(125, 211, 252, 0.4), 0 0 36px rgba(139, 92, 246, 0.26);
+}
+
+.btn-ghost {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.7rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #edf7ff;
+  background: rgba(12, 20, 34, 0.66);
+  border: 1px solid rgba(125, 211, 252, 0.22);
+  backdrop-filter: blur(10px);
+  transition: all 0.25s ease;
+}
+.btn-ghost:hover {
+  border-color: rgba(125, 211, 252, 0.56);
+  background: rgba(17, 27, 40, 0.82);
+  box-shadow: 0 0 26px rgba(125, 211, 252, 0.14);
+  transform: translateY(-2px);
+}
+
+.divider-glow {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, rgba(34,211,238,0.6), transparent);
+}
+
+/* Section padding */
+.section {
+  padding: 6rem 1.5rem;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .section { padding: 8rem 2rem; }
+}
+
+/* Cursor blink */
+.cursor::after {
+  content: "▍";
+  display: inline-block;
+  margin-left: 4px;
+  color: var(--color-primary-bright);
+  animation: blink 1.05s steps(1) infinite;
+}
+
+/* Smooth anchor scroll offset for sticky nav */
+section[id] { scroll-margin-top: 80px; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

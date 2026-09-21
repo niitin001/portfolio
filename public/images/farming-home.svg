@@ -1,0 +1,147 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="navBg" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B9B67"/>
+      <stop offset="1" stop-color="#1E8E59"/>
+    </linearGradient>
+    <linearGradient id="pageBg" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF5EE"/>
+      <stop offset="1" stop-color="#E6F1E7"/>
+    </linearGradient>
+    <linearGradient id="circleBg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A4D95A"/>
+      <stop offset="1" stop-color="#6EBB36"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#pageBg)"/>
+
+  <rect width="1600" height="88" fill="url(#navBg)"/>
+  <text x="110" y="57" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#F7F9F8">Farmer Friendly</text>
+  <g transform="translate(548 18)">
+    <circle cx="36" cy="34" r="14" fill="#F0D84D"/>
+    <path d="M32 18C40 30 40 42 32 54C24 42 24 30 32 18Z" fill="#C7F057"/>
+    <path d="M45 26C53 34 54 46 45 53C39 46 38 34 45 26Z" fill="#C7F057"/>
+  </g>
+
+  <g fill="#F2F8F1" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <text x="810" y="54">HOME</text>
+    <text x="950" y="54">ABOUT</text>
+    <text x="1085" y="54">CROP GUIDE</text>
+    <text x="1265" y="54">PURCHASE</text>
+    <text x="1415" y="54">WEATHER</text>
+    <text x="1545" y="54">CONTACT</text>
+  </g>
+
+  <g transform="translate(0 88)">
+    <rect x="0" y="0" width="1600" height="570" fill="#E9F4EC"/>
+
+    <g opacity="0.9">
+      <rect x="30" y="42" width="450" height="408" rx="30" fill="#B9DA7A" fill-opacity="0.35"/>
+      <path d="M90 365C120 285 160 232 228 173C255 211 273 242 287 283C298 304 305 327 335 339C355 348 375 346 405 355C430 364 445 373 450 405V420H90V365Z" fill="#2C7C43" fill-opacity="0.85"/>
+      <g fill="#97C836">
+        <path d="M100 255C110 240 118 220 125 200C134 224 141 243 152 260C143 270 120 268 100 255Z"/>
+        <path d="M170 300C180 285 188 265 195 245C205 269 212 288 223 305C214 315 191 313 170 300Z"/>
+        <path d="M220 240C230 220 236 200 244 178C253 203 261 221 272 240C264 251 238 251 220 240Z"/>
+        <path d="M280 280C288 266 294 249 301 230C310 252 318 270 330 285C320 295 298 294 280 280Z"/>
+      </g>
+      <g fill="#F7E97B">
+        <rect x="125" y="218" width="65" height="88" rx="28"/>
+        <rect x="209" y="223" width="60" height="84" rx="26"/>
+        <rect x="291" y="220" width="66" height="85" rx="28"/>
+      </g>
+      <g stroke="#1F7C3A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M150 228C132 198 138 176 154 154"/>
+        <path d="M151 228C171 198 175 182 167 158"/>
+        <path d="M240 234C226 209 230 191 247 170"/>
+        <path d="M240 234C258 206 267 189 260 166"/>
+        <path d="M324 230C312 203 314 186 331 163"/>
+        <path d="M324 230C342 205 351 188 345 167"/>
+      </g>
+      <g fill="#1D6F3E">
+        <circle cx="90" cy="395" r="18"/>
+        <circle cx="142" cy="417" r="20"/>
+        <circle cx="310" cy="420" r="22"/>
+      </g>
+      <g fill="#F3D381" stroke="#D9A444" stroke-width="2">
+        <path d="M128 410C146 390 150 374 148 352C170 362 178 374 178 390C178 413 158 423 128 410Z"/>
+        <path d="M336 395C352 380 363 364 363 344C383 356 390 367 390 385C389 405 369 418 336 395Z"/>
+      </g>
+    </g>
+
+    <g filter="url(#shadow)">
+      <path d="M495 180C495 125 535 82 589 82H991C1045 82 1085 125 1085 180V430C1085 485 1045 528 991 528H589C535 528 495 485 495 430V180Z" fill="#D4F0A0" fill-opacity="0.8"/>
+      <path d="M512 204C512 160 548 124 592 124H988C1032 124 1068 160 1068 204V406C1068 450 1032 486 988 486H592C548 486 512 450 512 406V204Z" fill="#B7D673" fill-opacity="0.8"/>
+      <circle cx="785" cy="306" r="182" fill="#E8F4C9"/>
+      <circle cx="785" cy="306" r="150" fill="#E1F3B8" stroke="#2F8E4B" stroke-width="18"/>
+      <g opacity="0.96">
+        <path d="M785 176V436" stroke="#F2F7CC" stroke-width="18" stroke-linecap="round"/>
+        <path d="M655 306H915" stroke="#F2F7CC" stroke-width="18" stroke-linecap="round"/>
+        <path d="M690 213L880 399" stroke="#F2F7CC" stroke-width="18" stroke-linecap="round"/>
+        <path d="M880 213L690 399" stroke="#F2F7CC" stroke-width="18" stroke-linecap="round"/>
+      </g>
+      <g>
+        <path d="M682 278C700 260 720 247 741 247C753 247 766 250 779 258C767 273 751 286 731 294C711 301 690 293 682 278Z" fill="#46B33E"/>
+        <path d="M704 338C717 319 734 306 754 302C771 298 790 304 806 317C776 333 752 352 726 357C712 360 696 352 704 338Z" fill="#C0CF3E"/>
+        <path d="M839 263C846 246 856 232 870 223C882 228 892 237 897 251C889 270 874 281 858 286C848 289 841 280 839 263Z" fill="#76CF4B"/>
+        <path d="M854 344C863 326 875 313 892 306C905 315 914 327 916 341C906 357 892 367 874 369C863 370 857 360 854 344Z" fill="#4CAC3E"/>
+        <path d="M767 175C771 152 791 132 816 129C831 144 840 158 843 176C830 194 806 204 787 197C777 194 772 185 767 175Z" fill="#65C64B"/>
+      </g>
+      <g>
+        <rect x="638" y="166" width="54" height="40" rx="18" fill="#F5C94A"/>
+        <rect x="724" y="515" width="116" height="20" rx="10" fill="#E7E2B4"/>
+      </g>
+      <text x="785" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2C6A32">SUSTAINABLE FARMING</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <path d="M1185 148C1270 166 1344 205 1385 251C1440 315 1450 408 1409 471C1374 529 1296 555 1203 557C1105 559 1014 521 980 461C954 417 948 348 975 293C1004 233 1083 160 1185 148Z" fill="#D0D0CF" fill-opacity="0.9"/>
+      <path d="M1107 255C1151 221 1212 210 1280 223C1337 234 1385 258 1417 296C1449 334 1460 388 1438 427C1418 463 1376 490 1321 507C1268 525 1192 526 1136 500C1087 477 1058 423 1057 370C1056 320 1076 285 1107 255Z" fill="#A9B8A1"/>
+      <path d="M1115 314C1197 287 1300 286 1385 315C1368 396 1340 440 1265 473C1195 501 1109 493 1064 445C1042 422 1039 377 1060 342C1074 323 1092 318 1115 314Z" fill="#4E7E51"/>
+      <path d="M1203 222C1243 221 1270 233 1294 270C1262 283 1226 300 1197 329C1161 293 1181 246 1203 222Z" fill="#7BC359"/>
+      <path d="M1210 337C1235 320 1275 319 1311 344C1286 356 1252 379 1228 412C1202 385 1195 353 1210 337Z" fill="#78C77D"/>
+      <path d="M1089 382C1120 360 1150 350 1182 350C1206 350 1224 356 1238 371C1228 395 1211 414 1180 427C1147 441 1112 435 1089 382Z" fill="#9DE273"/>
+      <path d="M1200 300L1215 260L1227 302L1200 300Z" fill="#B7E35C"/>
+      <path d="M1254 336L1270 295L1283 341L1254 336Z" fill="#7ECA45"/>
+      <path d="M1150 247L1161 215L1174 247L1150 247Z" fill="#B8E451"/>
+      <path d="M1157 420C1187 406 1220 411 1246 436C1214 448 1186 467 1161 492C1136 468 1136 437 1157 420Z" fill="#84C633"/>
+      <path d="M1176 508C1228 509 1275 527 1305 561C1268 589 1223 600 1176 599C1105 599 1049 577 1016 532C1044 516 1115 510 1176 508Z" fill="#7A4D2C"/>
+      <path d="M1168 590C1210 579 1252 581 1292 594C1260 636 1183 660 1119 647C1100 642 1093 635 1090 620C1112 606 1140 598 1168 590Z" fill="#815638"/>
+      <path d="M1160 521C1173 504 1187 499 1204 500C1228 502 1244 518 1247 541C1241 554 1224 566 1202 572C1178 579 1155 574 1138 563C1139 542 1144 531 1160 521Z" fill="#B7E35C"/>
+    </g>
+
+    <g>
+      <circle cx="1180" cy="150" r="155" fill="#E7F4D9"/>
+      <path d="M1080 235C1114 190 1167 186 1210 209C1260 236 1281 291 1272 343C1263 396 1226 451 1179 460C1114 472 1046 421 1037 350C1029 289 1038 263 1080 235Z" fill="#E8F1D5"/>
+      <path d="M1116 215C1148 170 1196 156 1249 168C1292 178 1332 207 1358 248C1323 274 1281 293 1238 298C1198 303 1155 295 1116 215Z" fill="#B3D95F"/>
+      <path d="M1201 301L1227 251L1251 302L1201 301Z" fill="#7AC44B"/>
+      <path d="M1161 360L1189 311L1219 367L1161 360Z" fill="#73C96A"/>
+      <path d="M1240 375L1270 321L1298 380L1240 375Z" fill="#8FD351"/>
+      <path d="M1162 189L1178 156L1193 191L1162 189Z" fill="#74CF55"/>
+      <path d="M1274 199L1290 163L1307 206L1274 199Z" fill="#A9DA52"/>
+    </g>
+
+    <g transform="translate(132 390)">
+      <path d="M0 195C40 157 90 135 138 136C174 138 208 155 229 186C248 213 252 241 245 278C237 319 210 354 171 374C121 399 62 394 12 358C-20 332 -41 305 -39 253C-37 226 -25 208 0 195Z" fill="#D7D5D3"/>
+      <path d="M43 305C72 287 97 273 122 264C145 255 165 253 185 263C201 272 213 288 219 310C186 329 146 345 112 353C82 360 56 356 31 336C33 327 36 317 43 305Z" fill="#7C5744"/>
+      <path d="M55 162L65 120L75 162L55 162Z" fill="#78CA46"/>
+      <path d="M83 176L94 122L106 175L83 176Z" fill="#8EDB4F"/>
+      <path d="M116 168L125 120L136 169L116 168Z" fill="#63B138"/>
+      <path d="M160 186L170 130L181 184L160 186Z" fill="#75C95C"/>
+      <path d="M194 174L205 128L218 177L194 174Z" fill="#A1D969"/>
+    </g>
+  </g>
+
+  <g>
+    <text x="800" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#0B5A3C">About Us</text>
+    <text x="800" y="718" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#3B463E">We are passionate about empowering farmers with the tools, knowledge, and resources they need</text>
+    <text x="800" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#3B463E">to succeed. Our vision is to combine traditional farming practices with modern technology to create</text>
+    <text x="800" y="802" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#3B463E">a smarter and more sustainable future.</text>
+  </g>
+
+  <rect x="0" y="846" width="1600" height="154" fill="#DCEFE0"/>
+  <text x="800" y="928" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#0F3E2D">See More Details:</text>
+</svg>
