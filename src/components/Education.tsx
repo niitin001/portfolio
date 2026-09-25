@@ -53,7 +53,7 @@ export default function Education() {
                 </div>
 
                 {ed.score && (
-                  <div className="hidden md:block text-right">
+                  <div className="block text-right md:min-w-[120px] md:ml-auto">
                     <div className="font-display text-5xl font-bold text-gradient">
                       {ed.score}
                     </div>
