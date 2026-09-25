@@ -154,6 +154,8 @@ export const education = [
     school: 'Eminent Heights Public School, Bhopal',
     period: '2021 - 2023',
     detail: 'MP Board • Science stream',
+    score: '70.8%',
+    scoreLabel: 'Percentage',
     accent: '#8b5cf6',
   },
   {
@@ -161,6 +163,8 @@ export const education = [
     school: 'Madhya Pradesh Board School, Bhopal',
     period: '2019 - 2020',
     detail: 'Completed schooling under MP Board',
+    score: '76.5%',
+    scoreLabel: 'Percentage',
     accent: '#10b981',
   },
 ]
