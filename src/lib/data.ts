@@ -103,7 +103,7 @@ export const projects: Project[] = [
     stack: ['HTML5', 'CSS3', 'JavaScript'],
     github: 'https://github.com/niitin001/organic-farming-system',
     liveDemo: 'https://organic-farming-system.onrender.com?utm_source=chatgpt.com',
-    image: '/images/farming-home.svg',
+    image: '/images/farming-home.webp',
     demoStatus: 'live',
     gradient: 'from-emerald-400/25 via-cyan-500/20 to-blue-500/20',
     accent: '#10b981',
