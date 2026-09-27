@@ -127,7 +127,7 @@ export default function Hero() {
             <div className="relative size-[300px] sm:size-[360px] md:size-[420px] rounded-full overflow-hidden glass-strong glow-cyan animate-glow">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-bright/30 via-accent/20 to-accent-2/30" />
               <img
-                src="/images/nitil-portrait.png"
+                src="/images/nitil-portrait.jpg"
                 alt={`${personal.name} — portrait`}
                 className="relative w-full h-full object-cover rounded-full"
                 loading="eager"
