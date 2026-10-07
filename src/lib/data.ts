@@ -30,7 +30,7 @@ export const aboutStats = [
   { label: 'Years of Learning', value: '3+' },
   { label: 'Projects Shipped', value: '2+' },
   { label: 'Credentials', value: '10' },
-  { label: 'CGPA', value: '7.2' },
+  { label: 'CGPA', value: '7.0' },
 ]
 
 export type Skill = {
@@ -103,7 +103,7 @@ export const projects: Project[] = [
     stack: ['HTML5', 'CSS3', 'JavaScript'],
     github: 'https://github.com/niitin001/organic-farming-system',
     liveDemo: 'https://organic-farming-system.onrender.com',
-    image: '/images/farming-home.webp',
+    image: 'https://image.thum.io/get/width/1200/crop/700/noanimate/https://organic-farming-system.onrender.com/',
     demoStatus: 'live',
     gradient: 'from-emerald-400/25 via-cyan-500/20 to-blue-500/20',
     accent: '#10b981',
