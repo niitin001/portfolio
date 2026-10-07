@@ -129,7 +129,7 @@ export default function Hero() {
               <img
                 src="/images/nitil-portrait.jpg?v=2"
                 alt={`${personal.name} — portrait`}
-                className="relative w-full h-full object-cover rounded-full"
+                className="relative w-full h-full object-cover object-top rounded-full"
                 loading="eager"
               />
               <div className="absolute inset-0 rounded-full ring-1 ring-inset ring-white/10" />
@@ -139,7 +139,7 @@ export default function Hero() {
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute -left-6 sm:left-2 top-1/4 glass-strong rounded-2xl px-4 py-3 border border-border"
+              className="absolute -top-8 right-4 sm:right-8 glass-strong rounded-2xl px-4 py-3 border border-border z-20"
             >
               <div className="flex items-center gap-2">
                 <span className="size-2 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.8)]" />
