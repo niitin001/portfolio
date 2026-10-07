@@ -145,7 +145,7 @@ export const education = [
     school: 'Bansal Institute of Science & Technology, Bhopal',
     period: '2023 - 2027',
     detail: 'Current degree pursuit in IT',
-    score: '7.2',
+    score: '7.0',
     scoreLabel: 'CGPA',
     accent: '#3b82f6',
   },
